@@ -11,7 +11,7 @@
 
 <body>
     @include('admin.includes.header')
-    <main>
+    <main class="container">
         @yield('contents')
     </main>
     @include('admin.includes.footer')
